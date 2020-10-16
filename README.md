@@ -32,7 +32,7 @@ Or the secret names and AWS region:
 
   ```secrets.aws.k8s/region: <AWS region for the secrets>```
 
-Optional flag for exploding json format in secret manager into into individual file
+Optional flag for exploding json format in secret manager into into individual file. This only works for exploding string type secrets (not binary) and that it applies to all secrets.
 
   ```secrets.aws.k8s/explodeJsonKeys: <true/false> ```
 
