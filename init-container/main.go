@@ -50,6 +50,7 @@ func main() {
             secrets = append(secrets, Secret{
                 Id: name,
                 Region: envSecretRegion,
+                ExplodeJson: envExplodeJsonKeys,
             })
         }
     } else {
